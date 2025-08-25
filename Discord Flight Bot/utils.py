@@ -138,6 +138,7 @@ async def fetch_user_home_airport(ctx, user_id):
         home_airport = result[0]["home_airport"]
         return home_airport
     
+# Function to pick random destinations based on the most flown to airports in the world
 def pick_random_destination(): 
     regions = {
         "Asia": ['SIN', 'ICN', 'HND'],
